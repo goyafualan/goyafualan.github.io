@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div class="post-card">
     <div class="post-meta"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a> <span class="post-date">{{ post.date | date: '%y/%m/%d'}}</span></div>
     <span>{{ post.excerpt | strip_html }}</span><span class="readmore"><a href="{{ post.url }}">READMORE</a></span>
