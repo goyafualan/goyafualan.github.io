@@ -31,6 +31,7 @@
             .post-title, .page-title{ font-weight: bold; font-size: 25px; border: none; line-height: 32px; vertical-align: middle; display: inline; }
             .post-date, .page-date{ float: right; color: #AAA }
             .readmore{ font-style: italic }
+            .paginator{ text-align:center }
             footer, .push { height: 60px }
             footer{ text-align: center; background: #3367D6; color: #FFF; width: 100%; box-shadow: 0px -5px 10px rgba(51, 103, 214, 0.3); position: absolute; bottom: 0; left: 0; z-index: 100; width: 100%; }
         </style>
@@ -58,7 +59,7 @@
             .kn { color: #f92672 } /* Keyword.Namespace */
             .kp { color: #0000FF } /* Keyword.Pseudo */
             .kr { color: #0000FF } /* Keyword.Reserved */
-            .kt { color: #0000FF } /* Keyword.Type */padding-bottom:17px
+            .kt { color: #0000FF } /* Keyword.Type */
             .ld { color: #008800 } /* Literal.Date */
             .m { color: #FF0000 } /* Literal.Number */
             .s { color: #008800 } /* Literal.String */
@@ -113,7 +114,7 @@
         </div>
         <footer>
             <div class="container">
-                &copy; {{ site.time | date: "%Y" }} <a href="{{ site.url }}">{{ site.title }}</a><br/>
+                &copy; {{ site.time | date: "%Y" }} <a href="{{ site.url }}">{{ site.title }}</a>
             </div>
         </footer>
     </body>
