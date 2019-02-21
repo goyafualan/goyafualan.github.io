@@ -14,7 +14,7 @@ layout: default
     {% if paginator.previous_page == 1 %}
         <a href="{{ site.url }}">上一页</a>
     {% else %}
-        <a href="{{ site.url }}page{{ paginator.previous_page }}">上一页</a>
+        <a href="{{ site.url }}/page{{ paginator.previous_page }}">上一页</a>
     {% endif %}
 {% else %}
     <span>上一页</span>
@@ -23,7 +23,7 @@ layout: default
 {{ paginator.page }} of {{ paginator.total_pages }}
 
 {% if paginator.next_page %}
-    <a href="{{ site.url }}page{{ paginator.next_page }}">下一页</a>
+    <a href="{{ site.url }}/page{{ paginator.next_page }}">下一页</a>
 {% else %}
     <span>下一页</span>
 {% endif %}
