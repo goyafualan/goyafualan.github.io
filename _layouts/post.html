@@ -4,9 +4,6 @@ layout: default
 
 <div class="page-card">
     <div class="page-meta"><span class="page-title">{{ page.title }}</span><span class="page-date">{{ page.date | date_to_string }}</span></div>
-    <div class="page-content">
-        {{ page.content }}
-    </div>
     <p class="page-category">
         分类:     
         {% if page.category != nil %}
@@ -15,6 +12,9 @@ layout: default
             {% endfor %}
         {% else%}无分类{% endif %}
     </p>
+    <div class="page-content">
+        {{ page.content }}
+    </div>
 </div>
 
 <div class="page-links">
