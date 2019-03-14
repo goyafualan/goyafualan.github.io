@@ -5,11 +5,11 @@ layout: default
 <div class="page-card">
     <div class="page-meta"><span class="page-title">{{ page.title }}</span><span class="page-date">{{ page.date | date_to_string }}</span></div>
     <p class="page-category"> 
-        {% unless page.category %}
+        {% if page.category != nil %}
             {% for category in page.categories %}
             <a href="{{ site.url }}/category/#{{ category }}">{{ category }}</a>
             {% endfor %}
-        {% else %}无分类{% endunless %}
+        {% else%}无分类{% endif %}
     </p>
     <div class="page-content">
         {{ page.content }}
@@ -17,16 +17,16 @@ layout: default
 </div>
 
 <div class="page-links">
-{% unless page.previous %}
+{% if page.previous != nil %}
 上一篇：<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
 {% else %}
 上一篇：没有了
-{% endunless %}
+{% endif %}
 <br/>
-{% unless page.next %}
+{% if page.next != nil %}
 下一篇：<a href="{{ page.next.url }}">{{ page.next.title }}</a>
 {% else %}
 下一篇：没有了
-{% endunless %}
+{% endif %}
 </div>
 
