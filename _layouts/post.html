@@ -5,11 +5,11 @@ layout: default
 <div class="page-card">
     <div class="page-meta"><span class="page-title">{{ page.title }}</span><span class="page-date">{{ page.date | date_to_string }}</span></div>
     <p class="page-category"> 
-        {% if page.category != nil %}
+        {% unless page.category %}
             {% for category in page.categories %}
             <a href="{{ site.url }}/category/#{{ category }}">{{ category }}</a>
             {% endfor %}
-        {% else%}无分类{% endif %}
+        {% else %}无分类{% endunless %}
     </p>
     <div class="page-content">
         {{ page.content }}
