@@ -17,16 +17,16 @@ layout: default
 </div>
 
 <div class="page-links">
-{% if page.previous != nil %}
+{% unless page.previous %}
 上一篇：<a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
 {% else %}
 上一篇：没有了
-{% endif %}
+{% endunless %}
 <br/>
-{% if page.next != nil %}
+{% unless page.next %}
 下一篇：<a href="{{ page.next.url }}">{{ page.next.title }}</a>
 {% else %}
 下一篇：没有了
-{% endif %}
+{% endunless %}
 </div>
 
