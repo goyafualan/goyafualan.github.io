@@ -1,6 +1,6 @@
 ﻿---
 title: Hellow, World
-category: [博客记录], [生活]
+category: 博客记录, 生活
 layout: post
 ---
 
