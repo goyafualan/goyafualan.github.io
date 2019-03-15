@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"  />
-        <title>{% unless page.title %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endunless %}</title>
+        <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
         
         <style>
             body{ color: #656667; font-family: 'Microsoft YaHei'; margin: 0; background: #FEFEFE; line-height:27px; word-break:break-word; padding-bottom: 87px; position: relative!important }
