@@ -4,6 +4,9 @@ layout: page
 permalink: /category/
 ---
 
-{% for category in site.categories %}
-<a href="{{ site.url }}/category/#{{ category | first }}">#{{ category | first }}({{ category | last | size }})</a>
-{% endfor %}
+<p class="page-category">
+    {% for category in site.categories %}
+    <a href="{{ site.url }}/category/#{{ category | first }}">#{{ category | first }}({{ category | last | size }})</a>
+    {% endfor %}
+</p>
+
