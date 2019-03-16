@@ -1,4 +1,4 @@
----
+﻿---
 title: 常用网站
 category: [常用网站]
 layout: post
@@ -8,14 +8,14 @@ layout: post
 
 ## 1 常用网站
 ### 1.1 常用的技术网站
-github w3school 
+[github](https://www.github.com), [w3school](https://www.w3schools.com), [MDSS](https://mdss.cloud)
 ### 1.2 常用的ACG相关网站
-pixiv bilibili iwara
-### 1.3 人类语言学习网站
-维吾尔语翻译
+[pixiv](https://www.pixiv.net), [bilibili](https://www.bilibili.com), [iwara](https://iwara.tv)
+### 1.3 人类语言学习
+[中文翻译](http://www.mzywfy.org.cn/translate.jsp)
 ### 1.4 其他网站
 
 ## 2 常用链接
-（）
+<https://zh.wikipedia.org/zh-cn/维吾尔语#文字>
 
 最后更新于2019年3月15日
