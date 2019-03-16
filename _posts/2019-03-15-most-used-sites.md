@@ -19,5 +19,6 @@ layout: post
 <http://www.mzywfy.org.cn/translate.jsp>
 ### 4 常用链接
 <https://zh.wikipedia.org/zh-cn/维吾尔语#文字>
+<http://abkai.net/core/zh/uyghur/>
 
 最后更新于2019年3月15日
