@@ -7,7 +7,7 @@ layout: default
     <p class="page-category"> 
         {% if page.category != nil %}
             {% for category in page.categories %}
-            <a href="{{ site.url }}/category/#{{ category }}">{{ category }}</a>
+            <a href="{{ site.url }}/category/#{{ category }}">#{{ category }}</a>
             {% endfor %}
         {% else%}无分类{% endif %}
     </p>
