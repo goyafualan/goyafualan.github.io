@@ -5,8 +5,5 @@ permalink: /category/
 ---
 
 {% for category in site.categories %}
-<h2><a href="{{ site.url }}/category/#{{ category | first }}">#{{ category | first }}({{ category | last | size }})</a></h2>
-{% for post in category | last %}
-{{ post.date }} - {{ post.title }}
-{% endfor %}
+<a href="{{ site.url }}/category/#{{ category | first }}">#{{ category | first }}({{ category | last | size }})</a>
 {% endfor %}
