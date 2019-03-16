@@ -8,13 +8,16 @@ layout: post
 
 ## 1 常用网站
 ### 1.1 常用的技术网站
-[github](https://www.github.com), [w3school](https://www.w3schools.com), [MDSS](https://mdss.cloud)
-### 1.2 常用的ACG相关网站
-[pixiv](https://www.pixiv.net), [bilibili](https://www.bilibili.com), [iwara](https://iwara.tv)
-### 1.3 人类语言学习
-[中文翻译](http://www.mzywfy.org.cn/translate.jsp)
-### 1.4 其他网站
+<https://www.github.com>  
+<https://www.w3schools.com>  
+<https://mdss.cloud>
 
+### 1.2 常用的ACG相关网站
+<https://www.pixiv.net>  
+<https://www.bilibili.com>  
+<https://iwara.tv>
+### 1.3 人类语言学习
+<http://www.mzywfy.org.cn/translate.jsp>
 ## 2 常用链接
 <https://zh.wikipedia.org/zh-cn/维吾尔语#文字>
 
