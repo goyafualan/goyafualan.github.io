@@ -26,9 +26,10 @@
             .site-title{ color: #FFF; font-size: 20px; line-height: 60px }
             .site-title:hover{ color: #EEE; border: none }
             .site-menu{ float:right }
-            .site-menu a, footer a{ color: #FFF; margin-left: 6px; line-height: 60px; transition: color 0.2s }
+            .site-menu a, footer a{ color: #FFF; padding-bottom:3px; line-height: 60px; transition: color 0.2s }
             .site-menu a:hover, footer a:hover { color: #EEE }
             .site-menu a:focus, footer a:focus { outline: none }
+            .menu-cutter{ width:15px }
             .post-card, .page-card{ background: #FFF; color: #555657; margin: 17px 0px; border-bottom: 1px solid #EEE; }
             .post-card{ padding-bottom: 17px }
             .post-meta, .page-meta{ padding-bottom: 7px; line-height: 2.25em }
@@ -114,7 +115,7 @@
         <header>
             <div class="container">
                 <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
-                <span class="site-menu"><a href="{{ site.url}}/about">关于</a><a href="{{ site.url}}/category">分类</a></span>
+                <span class="site-menu"><a href="{{ site.url}}/about">关于</a><div class="menu-cutter"></div><a href="{{ site.url}}/category">分类</a></span>
             </div>
         </header>
         <div class="container">
