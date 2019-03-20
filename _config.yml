@@ -2,5 +2,5 @@ title: 聖潔記事本
 description: No
 permalink: /:title/
 
-paginate: 8
+paginate: 1
 paginate_path: "/page:num"
