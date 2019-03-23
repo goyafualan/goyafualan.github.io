@@ -23,7 +23,7 @@ layout: post
 
 ##### 4.1.1 维吾尔语
 <https://zh.wikipedia.org/zh-cn/维吾尔语#文字>  
-<http://abkai.net/core/zh/uyghur/>
+<http://abkai.net/core/zh/uyghur/>  
 <http://www.mzywfy.org.cn/translate.jsp>
 
 ##### 4.1.2 日语
