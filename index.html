@@ -1,10 +1,11 @@
 ---
 layout: default
+published: true
 ---
 
 {% for post in paginator.posts %}
 <div class="post-card">
-    <div class="post-meta"><a href="{{ post.url }}" class="post-title">{{ post.title }}</a> <span class="post-date">{{ post.date | date_to_string }}</span></div>
+    <div class="post-meta"> <span class="post-date">{{ post.date | date_to_string }}</span> <a href="{{ post.url }}" class="post-title">{{ post.title }}</a></div>
     <span>{{ post.excerpt | strip_html }}</span><span class="readmore"><a href="{{ post.url }}">READMORE</a></span>
 </div>
 {% endfor %}
