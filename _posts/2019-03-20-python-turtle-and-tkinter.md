@@ -1,4 +1,4 @@
----
+﻿---
 title: 在Python中体验Turtle和Tkinter
 layout: post
 category: [技术, Python]
@@ -13,18 +13,19 @@ from turtle import *
 
 gr    = Turtle()
 gr2   = Turtle()
-num   = 150           #设定以num像素为1单位；也就是精确到1/num
+num   = 150    #设定以num像素为1单位；也就是精确到1/num
 
 gr.speed("fastest")
 gr2.speed("fastest")
 
-for x in range(2 * num):         #画出3个单位
-    y = ( x * x ) / num          #计算函数值
-    gr.goto(x, y)                #绘图
+for x in range(2 * num):    #画出3个单位
+    y = ( x * x ) / num    #计算函数值
+    gr.goto(x, y)    #绘图
     y = ( x * x ) / num
     gr2.goto(-x, y)
-
 ```
 
 运行结果：
+[img](/files/img/python-turtle-1.png)
 
+未完待续
