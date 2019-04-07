@@ -13,9 +13,9 @@ from turtle import *
 
 gr    = Turtle()
 gr2   = Turtle()
-num   = 75          #设定以num像素为1单位；也就是精确到1/num
+num   = 150          #设定以num像素为1单位；也就是精确到1/num
 
-for x in range(5 * num):         #画共10个单位
+for x in range(2 * num):         #画共4个单位
     y = ( x * x ) / num          #计算函数值
     gr.goto(x, y)
     gr2.goto(-x, y)
