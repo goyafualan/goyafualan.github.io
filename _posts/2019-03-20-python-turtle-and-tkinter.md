@@ -27,5 +27,5 @@ for x in range(2 * num):         #画出3个单位
 
 运行结果：
 
-![Python Turtle](/files/img/python-turtle-1.png)
+![Python-Turtle](/files/img/python-turtle-1.png)
 未完待续
