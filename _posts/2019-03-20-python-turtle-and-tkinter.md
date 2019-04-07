@@ -19,8 +19,6 @@ for x in range(5 * num):         #画共10个单位
     y = ( x * x ) / num          #计算函数值
     gr.goto(x, y)
     gr2.goto(-x, y)
-
-
 ```
 运行结果：
 ![Python-Turtle](/files/img/python-turtle-1.png)
