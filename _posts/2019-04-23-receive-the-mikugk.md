@@ -9,7 +9,7 @@ layout: post
 这个手办是去年预定的（具体时间忘记了）本来是预计2月份（也可能不是）发货的，但是延期到四月，直到前天我才补了款。这手办价格很低（￥99）质量也不错。
 
 这是图片：
-![sm1](/img/sakuramiku1.jpg)
-![sm2](/img/sakuramiku2.jpg)
+![sm1](/files/img/sakuramiku1.jpg)
+![sm2](/files/img/sakuramiku2.jpg)
 
 
