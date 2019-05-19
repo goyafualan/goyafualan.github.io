@@ -1,4 +1,4 @@
----
+﻿---
 title: 通过SwitchyOmega使用无界浏览
 layout: post
 category: [技术, 科学上网]
@@ -11,7 +11,11 @@ category: [技术, 科学上网]
 不设定任何代理的时候，有两个选项 **[直接连接]** 和 **[系统代理]** 。选择直接连接，流量就略过了无界浏览；选择系统代理，流量经过无界浏览。 
 这样使用就方便了一些，不过还是存在一个问题，只能所有网页同时应用或取消代理，所以今天，我尝试着实现只有访问特定网站通过代理的功能。
 
-在SwitchyOmega中添加了一个HTTP代理：```192.168.0.103:9666``` 命名为全局，此时应用 **[全局]** 效果等价于 **[全局代理]** 。这个代理只有在无界浏览运行的时候才有用。
+在SwitchyOmega中添加了一个HTTP代理：```192.168.0.103:9666``` 将其命名为全局，此时应用 **[全局]** 效果等价于 **[全局代理]** 。这个代理只有在无界浏览运行的时候才有用。
 
-再添加了一个autoswitch：
+再添加了一个autoswitch，命名为“PAC模式”：
+![so1](/files/img/switchyomega.png)
+规则列表网址填<https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt>
+最后选择这个autoswitch，实现了通过SwitchyOmega使用无界浏览。
+
 
