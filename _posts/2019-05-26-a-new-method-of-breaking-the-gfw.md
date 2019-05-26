@@ -23,7 +23,7 @@ category: [技术, 科学上网]
 
 ### 配置SwitchyOmega
 这一步才是最关键的：
-![SwitchyOmega](/files/img/switchyomega2.png/)
+![SwitchyOmega](/files/img/switchyomega2.png)
 ssr设置为HTTP:192.168.0.103:1080
 wujieliulan设置为HTTP:192.168.0.103:9666
 
