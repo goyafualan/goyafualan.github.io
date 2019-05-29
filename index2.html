@@ -1,0 +1,10 @@
+﻿---
+layout: default
+---
+
+{% for lecay in paginator.lecay %}
+<div class="post-card">
+    <div class="post-meta"> <a href="{{ post.url }}" class="post-title">{{ lecay.title }}</a></div>
+    <span>{{ post.content | strip_html }}</span>
+</div>
+{% endfor %}
