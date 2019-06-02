@@ -25,7 +25,7 @@ category: [技术, 科学上网]
 这一步才是最关键的：
 ![SwitchyOmega](/files/img/switchyomega2.png)
 ssr：HTTP:192.168.0.103:1080  
-wujieliulanP：HTTP:192.168.0.103:9666
+wujieliulan：HTTP:192.168.0.103:9666
 
 至此，我可以使用SSR节点，并通过无界浏览对抗它的审计规则了。
 
