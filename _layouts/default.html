@@ -30,7 +30,7 @@
             .site-title{ color: #FFF; font-size: 20px; line-height: 60px; border: none }
             .site-title:hover{ color: #EEE }
             .site-menu{ float:right }
-            .site-menu a, footer a{ color: #FFF; padding-bottom:3px; line-height: 60px; transition: color 0.2s; border: none }
+            .site-menu a, footer a{ color: #FFF; padding-bottom:3px; line-height: 60px; transition: color 0.2s; border: none; padding: 5px; }
             .site-menu a:hover, footer a:hover { color: #EEE; border-bottom: 1px solid}
             .site-menu a:focus, footer a:focus { outline: none }
             .menu-cutter{ margin: 8px }
@@ -125,7 +125,10 @@
         <header>
             <div class="container">
                 <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
-                <span class="site-menu"><a href="{{ site.url}}/jottings">随笔</a><a href="{{ site.url}}/category">分类</a></span>
+                <span class="site-menu">
+                    <a href="{{ site.url}}/jottings">随笔</a>
+                    <a href="{{ site.url}}/category">分类</a>
+                </span>
             </div>
         </header>
         <div class="container">
