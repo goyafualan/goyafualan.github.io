@@ -1,6 +1,6 @@
-title: 第４産業
-description: 第４産業
+title: 高雅画廊
+description: 这里是好东西的画廊，我操你妈的，狗鸡巴世界
 permalink: /:title/
 
-paginate: 8
+paginate: 10
 paginate_path: "/page:num"
